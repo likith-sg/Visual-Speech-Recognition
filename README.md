@@ -26,7 +26,7 @@ To run this project end-to-end, follow the steps below:
 
 1.  **Clone the Repository to Your Local Machine**
     ```bash
-    git clone [https://github.com/likith-sg/Visual-Speech-Recognition.git](https://github.com/likith-sg/Visual-Speech-Recognition.git)
+    git clone https://github.com/likith-sg/Visual-Speech-Recognition.git
     ```
 
 2.  **Open Google Colab**
