@@ -1,6 +1,6 @@
 # Visual Speech Recognition (Lip Reading)
 
-This repository presents a Visual Speech Recognition system that performs lip reading using silent video sequences. The model is built using a 3D Convolutional Neural Network (3D CNN) to classify short video clips into spoken word categories by analyzing spatio-temporal patterns in lip movements.
+Visual Speech Recognition system that performs lip reading using silent video sequences. The model is built using a 3D Convolutional Neural Network (3D CNN) to classify short video clips into spoken word categories by analyzing spatio-temporal patterns in lip movements.
 
 ## Objective
 
