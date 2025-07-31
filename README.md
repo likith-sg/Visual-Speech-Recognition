@@ -20,4 +20,28 @@ The dataset used in this project is the Best Lip Reading Dataset, publicly avail
 
 [https://www.kaggle.com/datasets/allenye66/best-lip-reading-dataset](https://www.kaggle.com/datasets/allenye66/best-lip-reading-dataset)
 
-It consists of silent video recordings of individuals speaking one of thirteen predefined words. Each video is stored as a sequence of frames in structured directories. The dataset provides a challenging benchmark for visual-only speech recognition.
+# Instructions
+
+To run this project end-to-end, follow the steps below:
+
+1.  **Clone the Repository to Your Local Machine**
+    ```bash
+    git clone [https://github.com/likith-sg/Visual-Speech-Recognition.git](https://github.com/likith-sg/Visual-Speech-Recognition.git)
+    ```
+
+2.  **Open Google Colab**
+    Navigate to Google Colab and upload the `preliminary.ipynb` notebook from the cloned repository.
+
+3.  **Upload Your `kaggle.json` API Key**
+    - Go to your Kaggle Account Settings.
+    - Scroll to the API section and click on `Create New API Token`.
+    - Save the downloaded `kaggle.json` file to your local system.
+    - In the first cell of the notebook, upload the key using:
+      ```python
+      from google.colab import files
+      files.upload()  # Upload kaggle.json
+      ```
+
+4.  **Run All Cells Sequentially**
+    - Click `Runtime` > `Run all` to execute the notebook.
+    - For optimal performance, select `T4 GPU` via `Runtime` > `Change runtime type`.
